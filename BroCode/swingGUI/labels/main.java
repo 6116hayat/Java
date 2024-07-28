@@ -1,6 +1,7 @@
 package swingGUI.labels;
 
 import javax.swing.JLabel;
+import javax.swing.border.Border;
 import javax.swing.plaf.ColorUIResource;
 
 import swingGUI.Frame.Jframe;
@@ -8,6 +9,7 @@ import swingGUI.Frame.Jframe;
 import java.awt.Color;
 import java.awt.Font;
 
+import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
@@ -16,6 +18,9 @@ public class main {
 
         // adding an image icon
         ImageIcon image = new ImageIcon("BroCode\\swingGUI\\labels\\hitman logo.jpg");
+
+        //creating a border
+        Border border = BorderFactory.createLineBorder(Color.BLUE,5);
         
 
         JLabel label = new JLabel();
@@ -37,11 +42,29 @@ public class main {
         label.setBackground(Color.black);
         label.setOpaque(true); // this shows background color
 
+        // label for border
+        label.setBorder(border);
+
+        //changing the image and text allignment within label
+        label.setVerticalAlignment(JLabel.CENTER); 
+        label.setHorizontalAlignment(JLabel.CENTER); // setting horizontal position
+
+        //label for setting bounds
+        // label.setBounds(100,100, 600,600); // sets position for x, y within frame as well as dimension
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // frame layout
+        // frame.setLayout(null);
+
         frame.setSize(600,600);
         frame.setVisible(true);
         frame.add(label);
+
+        frame.pack();
+
+
 
 
         
