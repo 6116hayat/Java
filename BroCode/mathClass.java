@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class mathClass {
     public static void main(String[] args) {
         
@@ -22,7 +24,23 @@ public class mathClass {
         double e = Math.ceil(x);
         double f = Math.floor(x);
 
-        
+        // Pythogoras theorem 
+        double parallel;
+        double base;
+        double hypotenuse;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter you Parallel");
+        parallel = scanner.nextDouble();
+        System.out.println("Enter your base ");
+        base = scanner.nextDouble();
+
+        hypotenuse = Math.sqrt((x * x)+ (y * y));
+        System.out.println("The hypotenuse is:");
+
+        scanner.close();
+
 
 
 
