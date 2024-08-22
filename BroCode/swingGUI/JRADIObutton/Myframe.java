@@ -33,6 +33,12 @@ public class Myframe extends JFrame implements ActionListener {
         group.add(momosButton);
         group.add(cold_DrinkButton);
 
+        // adding action listener 
+        pizzaButton.addActionListener(this);
+        hamburgerButton.addActionListener(this);
+        momosButton.addActionListener(this);
+        cold_DrinkButton.addActionListener(this);
+
         //adding component
         this.add(pizzaButton);
         this.add(hamburgerButton);
