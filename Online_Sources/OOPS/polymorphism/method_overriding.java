@@ -1,4 +1,4 @@
-package Online_Sources.polymorphism;
+package OOPS.polymorphism;
 
 //parent class
 class parent{

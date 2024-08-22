@@ -1,3 +1,5 @@
+package OOPS.Inheritance;
+
 // importing all the necessary library
 import java.io.*;
 import java.lang.*;
@@ -23,6 +25,12 @@ class games implements three{
 
     public void outdoor_games(){
         System.out.println("Outdoor Games");
+    }
+
+    @Override
+    public void video_games() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'video_games'");
     }
 }
 

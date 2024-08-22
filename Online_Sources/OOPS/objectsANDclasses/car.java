@@ -1,4 +1,4 @@
-package Online_Sources.objectsANDclasses;
+package OOPS.objectsANDclasses;
 
 import java.util.Scanner;
 

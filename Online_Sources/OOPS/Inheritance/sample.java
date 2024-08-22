@@ -1,3 +1,5 @@
+package OOPS.Inheritance;
+
 class animal{
     /*
     animal(){

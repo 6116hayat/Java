@@ -1,4 +1,4 @@
-
+package OOPS.Inheritance;
 //base class
 class car{
     // method for base class

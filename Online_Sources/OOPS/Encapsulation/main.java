@@ -1,4 +1,4 @@
-package Online_Sources.Encapsulation;
+package OOPS.Encapsulation;
 
 import java.util.Scanner;
 

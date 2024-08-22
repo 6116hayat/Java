@@ -1,4 +1,4 @@
-package Online_Sources.Inheritance;
+package OOPS.Inheritance;
 
 import java.util.Scanner;
 
