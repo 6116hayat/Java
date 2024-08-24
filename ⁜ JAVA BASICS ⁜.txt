@@ -1,0 +1,26 @@
+			⁜ JAVA BASICS ⁜
+
+1) BASICS : ✅
+
+2) DATA TYPE & VARIABLES : ✅
+
+3) OPERATORS : ✅
+
+4) CONTROL FLOW STATEMENTS : ✅ 
+	1. Conditional(if, else-if, else, switch) ✅
+	2. Loops(for, while, do-while) ✅
+	3. Break and Continue ✅
+
+5) OOPS : ✅
+	1. Class And Objects ✅
+	2. Constructors and this keyword ✅
+	3. Encapsulation(private, protected, public) ✅
+	4. inheritance(extend, overriding, super keyword) ✅
+	5. polymorphism(overriding, overloading) ✅
+	6. abstraction(abstract classes & interfaces) ✅
+
+6) EXCEPTION HANDLING :
+	1. Understanding exceptions and errors
+	2. Try-Catch blocks
+	3. Finally block and try with resources
+	4. Throwing exceptions and creating custom exceptions
