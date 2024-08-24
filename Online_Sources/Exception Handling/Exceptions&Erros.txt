@@ -1,0 +1,30 @@
+⁕ EXCEPTIONS :  
+	⁎ An exception is an event that occurs during the execution of a program, 	disrupting its normal flow.
+	⁎ Exception can occur due to various reasons/issues such as invalid user 	input, device failure, or code errors.
+	⁎  Java provides a robust mechanism to handle these exceptions, ensuring 	the program can continue running smoothly.
+
+→ Major reasons why an exception Occurs
+	• Invalid user input
+	• Device failure
+	• Loss of network connection
+	• Physical limitations (out-of-disk memory)
+	• Code errors
+	• Out of bound
+
+⁕ ERRORS :
+	⁎  Errors represent irrecoverable conditions such as Java virtual machine 	(JVM) running out of memory, memory leaks, stack overflow errors, library 	incompatibility, infinite recursion, etc.
+
+→ Difference between Error and Exception :
+	• Error: An Error indicates a serious problem that a reasonable 	application should not try to catch.
+	• Exception: Exception indicates conditions that a reasonable 	application might try to catch.
+
+1. Built in Exceptions :
+	• Checked Exceptions : It is also known as compile-time exception 	because these exceptions are checked at compile time by compiler.
+
+	• Unchecked Exceptions : The compiler will not check these exceptions 	at compile time. if a program throws an unchecked exception, and even 	if we didn’t handle or declare it, the program would not give a 	compilation error. 
+
+→ Methods to print the Exception information:
+
+
+
+
