@@ -20,7 +20,7 @@
 	6. abstraction(abstract classes & interfaces) ✅
 
 6) EXCEPTION HANDLING :
-	1. Understanding exceptions and errors
+	1. Understanding exceptions and errors ✅
 	2. Try-Catch blocks
 	3. Finally block and try with resources
 	4. Throwing exceptions and creating custom exceptions
