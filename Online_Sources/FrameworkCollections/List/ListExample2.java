@@ -1,4 +1,4 @@
-package FrameworkCollections.UsingCollections;
+package FrameworkCollections.List;
 
 import java.io.*;
 import java.util.*;
