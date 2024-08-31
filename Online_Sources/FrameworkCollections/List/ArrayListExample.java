@@ -29,7 +29,7 @@ public class ArrayListExample {
         System.out.println();
         // Accessing the elements
         String car = cars.get(0); // here it is BMW
-        System.out.println("The List Elements form index : " + cars.get(0));
+        System.out.println("The List Elements from index(0) : " + cars.get(0));
 
         System.out.println();
         // Modifying elements
