@@ -25,9 +25,9 @@
 	3. Finally block and try with resources ✅
 	4. Throwing exceptions and creating custom exceptions ✅
 
-7) COLLECTIONS FRAMEWORK :
+7) COLLECTIONS FRAMEWORK : ✅
 	1. Using Collections(list, set, map) ✅
-	2. Common Implementations(ArrayList, LinkedList, Hashset, Treeset, HashMap, Treemap)
+	2. Common Implementations(ArrayList, LinkedList, Hashset, Treeset, HashMap, Treemap) ✅
 
 8) STRING MANIPULATION :
 
