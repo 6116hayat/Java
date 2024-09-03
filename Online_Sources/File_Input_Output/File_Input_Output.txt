@@ -1,0 +1,22 @@
+
+⁜ File I/O :
+• Input / Output in java is a crucial aspects of programming , allowing you to  read from and write to File.
+• Java provides a rich set of classes & methods in java.io and java.nio.file packages to handle file operations.
+
+⇒ Key Concepts and Classes 
+1. File Class : The File class represents a file or directory path in the file-system
+
+2. FileinputStream and FileOutputStream : These classes are used for reading and writing binary data
+
+3. FileReader and FileWriter : These classes are used for reading and writing character data.
+
+4. BufferedReader and BufferedWriter : These classes provide buffering for efficient reading and writing of characters, arrays, and lines.
+
+5. Using hava.nio.file Package : The java.nio.file package provide more advanced file I/O capabilities.
+
+→ Best Practises 
+⁎ Use Buffered Streams: For better performance, use buffered streams like BufferedReader and BufferedWriter.
+
+⁎ Close Resources: Always close file streams to release system resources. Use try-with-resources for automatic closing.
+
+⁎ Handle Exceptions: Properly handle IOException to avoid runtime errors

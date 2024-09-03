@@ -29,13 +29,23 @@
 	1. Using Collections(list, set, map) ✅
 	2. Common Implementations(ArrayList, LinkedList, Hashset, Treeset, HashMap, Treemap) ✅
 
-8) STRING MANIPULATION :
+8) STRING MANIPULATION : ✅
 
 9) ARRAY & MULTIDIMENSIONAL ARRAYS
 
 10) FILE I/O :
 	1. Using(File, File Reader, File Writer, Buffer Reader And Buffered Writer)
 
+11) Java 8 Features :
+	1. Lambda expressions
+	2. Stream API
+	3. Optional class for handling
+	4. New date and time API 
+
+12) Basic Design Patterns :
+	1. Singleton Pattern
+	2. Factory Pattern
+	3. Obserever Pattern
 
 
 
