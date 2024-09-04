@@ -33,8 +33,8 @@
 
 9) ARRAY & MULTIDIMENSIONAL ARRAYS
 
-10) FILE I/O :
-	1. Using(File, File Reader, File Writer, Buffer Reader And Buffered Writer)
+10) FILE I/O : ✅
+	1. Using(File, File Reader, File Writer, Buffer Reader And Buffered Writer) ✅
 
 11) Java 8 Features :
 	1. Lambda expressions
