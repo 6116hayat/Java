@@ -38,7 +38,7 @@
 
 11) Java 8 Features :
 	1. Lambda expressions ✅
-	2. Stream API
+	2. Stream API ✅
 	3. Optional class for handling
 	4. New date and time API 
 
