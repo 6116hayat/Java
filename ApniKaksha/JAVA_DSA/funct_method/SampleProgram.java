@@ -67,24 +67,35 @@ public class SampleProgram {
      * }
      */
 
-    // different way for isPrime
-    public static boolean isPrime(int n) {
-
-        // special case
-        if (n == 2) {
-            return true;
-        }
-
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    // prime in range
-    // public
+    /*
+     * 
+     * // different way for isPrime
+     * public static boolean isPrime(int n) {
+     * 
+     * // special case
+     * if (n == 2) {
+     * return true;
+     * }
+     * 
+     * for (int i = 2; i <= Math.sqrt(n); i++) {
+     * if (n % i == 0) {
+     * return false;
+     * }
+     * }
+     * return true;
+     * }
+     * 
+     * // prime in range
+     * public static void primesInRange(int n) {
+     * for (int i = 2; i <= n; i++) {
+     * if (isPrime(i)) { // true
+     * System.out.println(i + " ");
+     * }
+     * }
+     * System.out.println();
+     * }
+     * 
+     */
 
     public static void main(String[] args) {
         // calling the Scanner
@@ -155,9 +166,15 @@ public class SampleProgram {
          * System.out.println("Is the number Prime : " + isPrime(num));
          */
 
-        System.out.println("Enter the number to check for Prime");
-        int n = in.nextInt();
-        System.out.println("Is the number Prime : " + isPrime(n));
+        /*
+         * 
+         * System.out.println("Enter the number to check for Prime");
+         * int n = in.nextInt();
+         * System.out.println("Is the number Prime : " + isPrime(n));
+         * 
+         * primesInRange(20); // 2 to 20
+         * 
+         */
 
     }
 }
