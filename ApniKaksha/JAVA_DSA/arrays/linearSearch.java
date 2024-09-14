@@ -40,7 +40,7 @@ public class linearSearch {
 
         String menu[] = { "idli", "dosa", "samosa", "breadpakoda", "sandwich" };
 
-        String item = "samosa";
+        String item = "idli";
 
         for (int i = 0; i < menu.length; i++) {
             if (menu[i] == item) {
