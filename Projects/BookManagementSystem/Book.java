@@ -1,4 +1,4 @@
-package Projects.SimpleManagementSystem;
+package Projects.BookManagementSystem;
 
 public class Book {
 

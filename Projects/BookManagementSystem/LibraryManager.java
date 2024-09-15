@@ -1,11 +1,11 @@
-package Projects.SimpleManagementSystem;
+package Projects.BookManagementSystem;
 
 import java.util.*;
 
 public class LibraryManager {
 
     // Creating Variables
-    // List <Book> books ✅`
+    // List <Book> books
 
     // Methods
     // ৹ addBook(Book book) : Adds A new book to the library

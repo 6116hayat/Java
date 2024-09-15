@@ -1,4 +1,4 @@
-package Projects.SimpleManagementSystem;
+package Projects.BookManagementSystem;
 
 import java.util.*;
 
