@@ -1,6 +1,5 @@
 package FrameworkCollections.List;
 
-import java.io.*;
 import java.util.*;
 
 // List Interfaces :
@@ -94,7 +93,7 @@ class StackExample {
 /* */
 
 //Creating a Linked List Example
-class LinkedListExample {
+class LinkedListEx {
     public static void main(String[] args) {
 
         // Size of array

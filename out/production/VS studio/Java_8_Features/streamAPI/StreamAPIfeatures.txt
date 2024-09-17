@@ -1,0 +1,26 @@
+Features of JAVA Stream
+• A Stream is not a data structure intead it takes input from the Collections, Arrays, or I/O channels
+
+• Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
+
+• Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations can be pipelined. Terminal operations mark the end of the stream and return the result.
+
+→ KEY FEATURES :
+1. Stream Creation
+    • From Collections: collection.stream()
+    • From Arrays: Arrays.stream(array)
+    • Using Stream.of(): Stream.of("a", "b", "c")
+    • Empty Stream: Stream.empty()
+
+2. Intermediate operation
+    • Filtering: stream.filter(predicate)
+    • Mapping: stream.map(function)
+    • Sorting: stream.sorted()
+
+3. Terminal operations
+    • Collecting: stream.collect(Collectors.toList())
+    • Counting: stream.count()
+    • Reducing: stream.reduce(identity, accumulator)
+
+4. Parallel Streams
+    • Parallel Processing: collection.parallelStream()
