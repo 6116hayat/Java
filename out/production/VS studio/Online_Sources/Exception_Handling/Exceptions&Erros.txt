@@ -1,0 +1,93 @@
+⁕ EXCEPTIONS :  
+	⁎ An exception is an event that occurs during the execution of a program, disrupting its normal flow.
+	⁎ Exception can occur due to various reasons/issues such as invalid user input, device failure, or code errors.
+	⁎  Java provides a robust mechanism to handle these exceptions, ensuring the program can continue running smoothly.
+
+→ Major reasons why an exception Occurs
+	• Invalid user input
+	• Device failure
+	• Loss of network connection
+	• Physical limitations (out-of-disk memory)
+	• Code errors
+	• Out of bound
+
+⁕ ERRORS :
+	⁎  Errors represent irrecoverable conditions such as Java virtual machine (JVM) running out of memory, memory leaks, stack overflow errors, library incompatibility, infinite recursion, etc.
+
+→ Difference between Error and Exception :
+	• Error: An Error indicates a serious problem that a reasonable application should not try to catch.
+	• Exception: Exception indicates conditions that a reasonable application might try to catch.
+
+1. Built in Exceptions :
+	• Checked Exceptions : It is also known as compile-time exception because these exceptions are checked at compile time by compiler.
+
+	• Unchecked Exceptions : The compiler will not check these exceptions at compile time. if a program throws an unchecked exception, and even if we didn’t handle or declare it, the program would not give a compilation error. 
+
+→ Methods to print the Exception information:
+	1. printStackTrace()
+	This method prints exception information in the format of the Name of the exception: description of the exception, stack trace.
+
+	2. toString() 
+	The toString() method prints exception information in the format of the Name of the exception: description of the exception.
+
+	3. getMessage() 
+	The getMessage() method prints only the description of the exception.
+
+Q. How programmer Handle an Exception ?
+A. • Customized Exception Handling: Java exception handling is managed 	via five keywords: try, catch, throw, throws, and finally. Programmer uses these keywords to create custom exception, for smooth running of program.
+
+Q. How to Use the Try-catch Clause ?
+A. 
+	try {
+    	// block of code to monitor for errors
+    	// the code you think can raise an exception
+	} catch (ExceptionType1 exOb) {
+    	// exception handler for ExceptionType1
+	} catch (ExceptionType2 exOb) {
+    	// exception handler for ExceptionType2
+	}
+	// optional
+	finally {  // block of code to be executed after try block ends }
+
+⁕ TYPES OF EXCEPTIONS :
+	1. ArithmeticException: It is thrown when an exceptional condition has occurred in an arithmetic operation.
+
+	2. ArrayIndexOutOfBoundsException: It is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+
+	3. ClassNotFoundException: This Exception is raised when we try to access a class whose definition is not found
+
+	4. FileNotFoundException: This Exception is raised when a file is not accessible or does not open.
+
+	5. IOException: It is thrown when an input-output operation failed or interrupted
+
+	6. InterruptedException: It is thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted.
+
+	7. NoSuchFieldException: It is thrown when a class does not contain the field (or variable) specified
+
+	8. NoSuchMethodException: It is thrown when accessing a method that is not found.
+
+	9. NullPointerException: This exception is raised when referring to the members of a null object. Null represents nothing
+
+	10. NumberFormatException: This exception is raised when a method could not convert a string into a numeric format.
+
+	11.RuntimeException: This represents an exception that occurs during runtime.
+
+	12.StringIndexOutOfBoundsException: It is thrown by String class methods to indicate that an index is either negative or greater than the size of the string
+
+	13. IllegalArgumentException : This exception will throw the error or error statement when the method receives an argument which is not accurately fit to the given relation or condition. It comes under the unchecked exception. 
+
+	14. IllegalStateException : This exception will throw an error or error message when the method is not accessed for the particular operation in the application. It comes under the unchecked exception.
+
+⁕ Finally block :
+ • The finally block in java is used to put important code such as clean up code.
+ • The finally block executes whether exception rise or not and whether exception handled or not. 
+
+→ 3 possible cases where finally block can be used
+Case 1: When an exception does not rise.
+Case 2: When an execution rises and handled by catch block, then finally block executes.
+Case 3: When an execution rises and not handled by catch block, then finally block executes.
+
+⇒ CUSTOM EXCEPTIONS : 
+• An exception issue that occured during thee execution of program.
+• Java custom exceptions are used to customazie the exception according to the user needs.
+
