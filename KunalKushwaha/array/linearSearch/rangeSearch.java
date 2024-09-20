@@ -1,4 +1,4 @@
-package KunalKushwaha.array;
+package linearSearch;
 
 public class rangeSearch {
     
