@@ -1,0 +1,18 @@
+JUNIT :
+• Junit is a popular unit testing framework for Java applications. 
+• It provides a way to write and run repeatable tests that help ensure the correctness of Java code.
+• JUnit is a part of a family of unit testing frameworks collectively knows as xUnit, which with SUnit.
+
+⇒ Key Features of JUnit:
+1. Annotations: JUnit uses annotations to identify methods that specify the test lifecycle
+    → @Test: Marks a method as a test case.
+
+    → @Before: Run before each test case. Used to set up conditions (e.g., initializing objects).
+
+    → @After: Run after each test case. Used to clean up or reset states.
+
+    → @BeforeClass: Run once before all test cases. Typically used for expensive setup (e.g., database connection).
+
+    → @AfterClass: Run once after all test cases.
+
+    → @Ignore: Temporarily disable a test case.
