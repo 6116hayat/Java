@@ -2,7 +2,6 @@ package Projects.RockPaperScissor;
 
 // 1. Importing the libraries
 import java.util.*;
-import java.util.jar.Attributes.Name;
 
 // 2. Creating the main class and methods
 public class main {
