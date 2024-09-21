@@ -4,65 +4,62 @@ import java.util.*;
 
 public class Main{
 
-    //Creating a fucntion
-    public static void startGame(){
-        // creating a scanner 
-        Scanner in =  new Scanner(System.in);
+    // Creating a function
+    static void startGame(){
+        Scanner in = new Scanner(System.in);
 
-        // Asking the user for the input
-        System.out.print("\n"+ " Choose a Integer from 0-10 ");
-        int userInput = in.nextInt();
-
-        //User-Lives 
-        int userLives = 3;
-
-            //Computer chose the number 
-            Random random = new Random();
-            int computerChoice = random.nextInt(10);
-
-            if (userInput == computerChoice) {
-                System.out.println("You found the number");
-            }else{
-                System.out.println("Try Again!!");
-                userLives--;
-                System.out.println("Lives -1, "+ userLives + " Lives Remain");
-            }
-
-            //UserLives commes to 0
-            if (userLives == 0) {
-                System.out.println("You Lost the Game");
-                System.out.println("The number was : "+ computerChoice);
-            }
-
-    }
-
-
-    public static void main(String[] args) {
-        Scanner in =  new Scanner(System.in);
-
-        System.out.println("Welcome to the Guess the number Game");
-
-        // Keep-Playing loop 
         boolean keepPlaying = true;
+        
 
-        int userLives = 3;
-
+        // Keep Playing Game Logic
         while (keepPlaying) {
 
-            while (userLives != 0) {
-                //Runing the startGame function
-                startGame();
-                userLives--;
-            }
+         // Computer making a choice
+        Random random = new Random();
+        int computerNum = random.nextInt(10); // chooses number between 0-10
+
+        int UserLives = 3;
+
+        System.out.println("Welcome to the Guessing game");
+        System.out.println("I have selected a number from 0 to 10");
+        System.out.println("You have " + UserLives + " lives to give the correct answer");
+
+            System.out.println(computerNum);
             
+            // User Lives is not equal to Zero loop
+            while(UserLives != 0){
 
-        // Asking the Player you want ot continue ??
-        System.out.println("Do you want to Continue ?? (yes/no)");
-        String ans = in.next().toLowerCase();
-        if (ans.equals("no")) {
-            keepPlaying = false;
+                //User Making choice
+                System.out.println("Input your guessed Number");
+                int userGuess = in.nextInt();
+
+                if (userGuess == computerNum) {
+                    System.out.println("You Won !!!");
+                    break;
+                }else {
+                    UserLives--;
+                    System.out.println("Try Again!"+ "\n "+ "Lives Remain : "+ UserLives);
+                }if(UserLives > 0){
+                    System.out.println("Enter the integer Again!");
+                }else {
+                    System.out.println("You Lost the Game ");
+                    System.out.println("The Number was : "+ computerNum);
+                }
+            } // UserLives loop End
+
+            //Asking the player you want to play again
+            System.out.println("Do you want to play Again || yes/no");
+            String ans = in.nextLine().toLowerCase();
+            if (!ans.equals("yes")) {
+                keepPlaying = false;
+            } //Keep Playing loop end
         }
+    }
 
-        } //  while Loop end
+    // Main function
+    public static void main(String[] args) {
+        
+        //calling the startGame Function
+        startGame();
     }
 }
