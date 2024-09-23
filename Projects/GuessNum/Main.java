@@ -18,7 +18,7 @@ public class Main{
         System.out.println("I have selected a number from 0 to 10");
         System.out.println("You have " + UserLives + " lives to give the correct answer" + "\n");
 
-            System.out.println(computerNum);
+            // System.out.println(computerNum); // Disabled Cheat mode 
             
             // User Lives is not equal to Zero loop
             while(UserLives != 0){
